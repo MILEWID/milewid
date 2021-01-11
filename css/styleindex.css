@@ -9,15 +9,6 @@
   box-sizing: border-box;
 }
 
-/*header {
-  z-index: 2;
-  width: 100%;
-
-  overflow: hidden;
-  background: #16BFFD;
-  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
-  background: linear-gradient(to right, #CB3066, #16BFFD);
-}  */
 header{
   z-index: 2;
   width: 100%;
@@ -66,12 +57,16 @@ header nav a, #btn-yo {
   line-height: normal;
   font-size: 15px;
   border-radius: 1px 40px 40px 40px;
-  border-style: solid;
-  border-color: #202020;
+  border-style:inset;
+  border-color:white;
 }
 
 header nav a:hover {
-  background: #202020;
+  background: #16BFFD;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CB3066, #16BFFD);
   -webkit-transition: all, 500ms, easy;
   -o-transition: all, 500ms, easy;
   transition: all, 500ms, easy;
@@ -141,12 +136,7 @@ header nav a:hover {
     display: block;
     width: 100%;
     height: 200px;
-    background: #16BFFD;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #CB3066, #16BFFD);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgba(27, 27, 27, 0.8);
   }
 
   .menu_bar img {
@@ -185,12 +175,7 @@ header nav a:hover {
     z-index: 3;
     display: block;
     width: 100%;
-    background: #16BFFD;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #CB3066, #16BFFD);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgba(27, 27, 27, 0.8);
     position: fixed;
     height: 90px;
   }
@@ -468,10 +453,11 @@ footer{
   background: linear-gradient(to right, #CB3066, #16BFFD);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
-  height: 100px;
   display: block;
-  color: #fff;
+  color: black;
+ font-family: rancho;
   font-size: 20px;
+  margin: 0;
 }
 footer .redes-sociales{
   display: flex;
@@ -481,11 +467,12 @@ footer .redes-sociales{
  .fa-facebook-square, .fa-github,.fa-instagram{
    padding-left: 10px;
    font-size: 30px;
-   color: #fff;
+   color: black;
 }
 footer .copy{
   font-size: 15px;
   display: flex;
   justify-content: center;
+  padding-bottom: 2em;
 }
 
