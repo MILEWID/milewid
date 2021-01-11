@@ -58,7 +58,7 @@ header nav a, #btn-yo {
   font-size: 15px;
   border-radius: 1px 40px 40px 40px;
   border-style:inset;
-  border-color:white;
+  border-color: #2e2e2efb;
 }
 
 header nav a:hover {
@@ -475,4 +475,6 @@ footer .copy{
   justify-content: center;
   padding-bottom: 2em;
 }
-
+.fa-bars{
+  color: white;
+}
