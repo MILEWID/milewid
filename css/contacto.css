@@ -1,38 +1,55 @@
-.main_contact{
+.contactos{
     text-align: center;
     padding-top: 100px;
 }
-.title_contact{
+.titulo{
     color: #fff;
     margin: 15px 0;
+    font-family: Rancho ;
+    letter-spacing: 2px;
 }
-.form_contact{
+.formulariocontacto{
     color: #fff;
     width: 600px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
-.form_group{
+.formcontenido{
+    font-family: Marvel ;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
 }
-.form_group label{
+.formcontenido label{
     text-align: left;
     font-size: 18px;
     margin-bottom: 5px;
 }
-.form_group input{
+.formcontenido input{
     height: 30px;
     outline: none;
     font-size: 18px;
     padding: 0 5px;
+
 }
-.form_group textarea{
+.formcontenido textarea{
     resize: none;
+    
 }
-.form_contact input[type="submit"]{
-    width: 100%;
+.formulariocontacto .subir{
+    margin-top: 1em;
+    width: 40%;
     cursor: pointer;
     height: 40px;
+    border-radius: 1px 40px 40px 40px;
+    border-style:solid;
+    border-color:rgb(22, 228, 255);
+    background-color: #202020;
+    color: white;
+    font-family: marvel;
+    font-size: 20px;
+}
+.formcontenido input,.formcontenido textarea{
+    font-family: Marvel;
+    font-size: 20px;
 }

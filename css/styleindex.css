@@ -62,7 +62,7 @@ header nav a, #btn-yo {
   line-height: normal;
   font-size: 15px;
   border-radius: 1px 40px 40px 40px;
-  border-style:inset;
+  border-style:solid;
   border-color: #2e2e2efb;
 }
 
