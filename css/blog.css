@@ -15,13 +15,16 @@
 .cont_text_welc .title_welc{
     font-size: 35px;
     margin-bottom: 20px;
+    font-family: Rancho, 'Gill Sans';
 }
 .cont_text_welc .text_welc{
     padding: 0 20px;
     font-size: 18px;
+    font-family: Marvel, 'Gill Sans';
 }
 .blog_img_welc{
     width: 45%;
+    padding: 50px;
 }
 .blog_img_welc img{
     max-width: 100%;
