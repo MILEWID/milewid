@@ -145,8 +145,8 @@ h3{
   width: 260px;
 }
 .barra{
-  width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 250px;
   padding-bottom: 5em;
 }
 .barra h2{
@@ -182,7 +182,7 @@ h3{
 
 
 }
-.linea::after{
+.barra:hover .linea::after{
   content: '';
   /*DEGRADADO*/
   background: #16BFFD;

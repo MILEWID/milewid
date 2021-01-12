@@ -11,16 +11,23 @@
     width: 45%;
     text-align: center;
     color: #fff;
+    text-align: left;
 }
 .cont_text_welc .title_welc{
-    font-size: 35px;
+    font-size: 50px;
     margin-bottom: 20px;
+    margin-left: 0.4em;
     font-family: Rancho, 'Gill Sans';
 }
 .cont_text_welc .text_welc{
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 30px;
     font-family: Marvel, 'Gill Sans';
+}
+.cont_text_welc .text_welc:last-child{
+
+    color: #835edb;
+    font-size: 23px;
 }
 .blog_img_welc{
     width: 45%;
@@ -28,4 +35,8 @@
 }
 .blog_img_welc img{
     max-width: 100%;
+}
+hr{
+    margin: 2em 0em 2em 2em;
+    width: 50px;
 }
