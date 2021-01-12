@@ -1,0 +1,28 @@
+
+.blog_bienvenido{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont_text_welc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    text-align: center;
+    color: #fff;
+}
+.cont_text_welc .title_welc{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.cont_text_welc .text_welc{
+    padding: 0 20px;
+    font-size: 18px;
+}
+.blog_img_welc{
+    width: 45%;
+}
+.blog_img_welc img{
+    max-width: 100%;
+}
