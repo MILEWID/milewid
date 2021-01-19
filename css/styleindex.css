@@ -475,6 +475,7 @@ footer .copy {
 @media screen and (max-width: 768px){
   .header{
     height: 100px;
+    position: relative;
   }
   .logo .logo_img{
     width: 300px;
@@ -484,7 +485,29 @@ footer .copy {
     cursor: pointer;
   }
   .header .enlaces{
-    display: none;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #000;
+    width: 50%;
+    height: 100vh;
+    z-index: 10000000;
+    transition: 0.5s ease-in left;
+  }
+  .enlaces .enlace{
+    line-height: 44px;
+    border-radius: 0px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  .header .enlaces.active{
+    left: 0;
+    transition: 0.5s ease-in left;
   }
 }
 
