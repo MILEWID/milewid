@@ -8,13 +8,65 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-body{
+
+/* ####CSECCIÓN PERFIL PERSONAL#### */
+body {
+  background-color: #202020;
+}
+
+body {
+
   overflow-x: hidden;
 }
 
+.header {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  /* background-color: crimson; */
+}
 
+.bt_menu {
+  display: none;
+  font-size: 25px;
+}
 
-header{
+.header .enlaces {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.enlaces .enlace {
+  -webkit-transition: all, 500ms, easy;
+  -o-transition: all, 500ms, easy;
+  transition: all, 500ms, easy;
+  font-family: 'text me one', cursive;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 15px;
+  border-radius: 1px 40px 40px 40px;
+  border-style: solid;
+  border-color: #2e2e2efb;
+}
+
+.enlaces .enlace:hover {
+  background: #16BFFD;
+  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
+  background: linear-gradient(to right, #CB3066, #16BFFD);
+  -webkit-transition: all, 500ms, easy;
+  -o-transition: all, 500ms, easy;
+  transition: all, 500ms, easy;
+}
+
+/* header{
   z-index: 2;
   width: 100%;
   overflow: hidden;
@@ -66,16 +118,6 @@ header nav a, #btn-yo {
   border-color: #2e2e2efb;
 }
 
-header nav a:hover {
-  background: #16BFFD;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #CB3066, #16BFFD);
-  -webkit-transition: all, 500ms, easy;
-  -o-transition: all, 500ms, easy;
-  transition: all, 500ms, easy;
-}
 #infor{
   background-color: #fff;
 }
@@ -96,120 +138,7 @@ header nav a:hover {
 .header2 #logo {
   padding-top: 7px;
   width: 233px;
-}
-
-@media screen and (max-width: 950px) {
-  #logo {
-    display: none;
-  }
-
-  #WID .tarjeta {
-    width: 25vw;
-    height: 25vw;
-  }
-
-  #WID .tarjeta-wrap {
-    margin: 1em;
-  }
-
-  header {
-    position: fixed;
-    width: 80%;
-    height: 100%;
-    left: -100%;
-    margin: 0%;
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  header nav {
-    float: none;
-  }
-
-  header nav a {
-    display: block;
-    line-height: 44px;
-    border-radius: 0px;
-    border-left-style: none;
-    border-right-style: none;
-    border-top-style: none;
-    border-color: rgba(255, 255, 255, 0.4);
-  }
-
-  .menu_bar {
-    z-index: 3;
-    display: block;
-    width: 100%;
-    height: 200px;
-    background-color: rgba(27, 27, 27, 0.8);
-  }
-
-  .menu_bar img {
-    display: inline-block;
-    float: left;
-    padding-top: 36px;
-    line-height: 200px;
-  }
-
-  .menu_bar .bt-menu {
-    display: block;
-    padding-top: 70px;
-    padding-right: 10px;
-    text-decoration: none;
-    color: #202020;
-    font-size: 40px;
-  }
-
-  .menu_bar .bt-menu i {
-    float: right;
-  }
-
-  .header2 {
-    position: fixed;
-    width: 70%;
-    height: 100%;
-    left: -100%;
-    margin-top: 90px;
-  }
-
-  .header2 #logo, .header2 nav {
-    line-height: 100px;
-  }
-
-  .menu_bar2 {
-    z-index: 3;
-    display: block;
-    width: 100%;
-    background-color: rgba(27, 27, 27, 0.8);
-    position: fixed;
-    height: 90px;
-  }
-
-  .menu_bar2 img {
-    padding-top: 7px;
-    width: 233px;
-  }
-
-  .menu_bar2 .bt-menu {
-    padding-top: 20px;
-    padding-right: 1em;
-    color: #202020;
-    float: right;
-  }
-
-  header nav a:hover {
-    background: #16BFFD;
-    color: #000;
-  }
-
-  .experiencia .misionvision {
-    font-size: 18px;
-  }
-}
-
-/* ####CSECCIÓN PERFIL PERSONAL#### */
-body {
-  background-color: #202020;
-}
+} */
 
 .perfil {
   display: inline-flex;
@@ -309,7 +238,257 @@ body {
   color: #CB3066;
 }
 
-@media screen and (max-width: 650px) {
+.wrap {
+  width: 100%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tarjeta-wrap {
+  margin: 30px;
+  -webkit-perspective: 800;
+  perspective: 800;
+}
+
+.tarjeta {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+}
+
+#c3 {
+  background: #CB3066;
+}
+
+#c2 {
+  background: #dd00ff;
+}
+
+#c1 {
+  background: #16BFFD;
+}
+
+.adelante img,
+.atras {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.adelante {
+  width: 100%;
+}
+
+.atras {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Marvel", open sans;
+  font-size: 30px;
+}
+
+.tarjeta-wrap:hover .tarjeta {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+footer {
+  background: #16BFFD;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CB3066, #16BFFD);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  display: block;
+  color: black;
+  font-family: rancho;
+  font-size: 20px;
+  margin: 0;
+}
+
+footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.fa-facebook-square,
+.fa-github,
+.fa-instagram {
+  padding-left: 10px;
+  font-size: 30px;
+  color: black;
+}
+
+footer .copy {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.fa-bars {
+  color: white;
+}
+
+/* @media screen and (max-width: 950px) {
+  #logo {
+    display: none;
+  }
+
+  #WID .tarjeta {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  #WID .tarjeta-wrap {
+    margin: 1em;
+  }
+
+  header {
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    left: -100%;
+    margin: 0%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  header nav {
+    float: none;
+  }
+
+  header nav a {
+    display: block;
+    line-height: 44px;
+    border-radius: 0px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .menu_bar {
+    z-index: 3;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(27, 27, 27, 0.8);
+  }
+
+  .menu_bar img {
+    display: inline-block;
+    float: left;
+    padding-top: 36px;
+    line-height: 200px;
+  }
+
+  .menu_bar .bt-menu {
+    display: block;
+    padding-top: 70px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #202020;
+    font-size: 40px;
+  }
+
+  .menu_bar .bt-menu i {
+    float: right;
+  }
+
+  .header2 {
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    left: -100%;
+    margin-top: 90px;
+  }
+
+  .header2 #logo,
+  .header2 nav {
+    line-height: 100px;
+  }
+
+  .menu_bar2 {
+    z-index: 3;
+    display: block;
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.8);
+    position: fixed;
+    height: 90px;
+  }
+
+  .menu_bar2 img {
+    padding-top: 7px;
+    width: 233px;
+  }
+
+  .menu_bar2 .bt-menu {
+    padding-top: 20px;
+    padding-right: 1em;
+    color: #202020;
+    float: right;
+  }
+
+  header nav a:hover {
+    background: #16BFFD;
+    color: #000;
+  }
+
+  .experiencia .misionvision {
+    font-size: 18px;
+  }
+} */
+
+@media screen and (max-width: 768px){
+  .header{
+    height: 100px;
+  }
+  .logo .logo_img{
+    width: 300px;
+  }
+  .bt_menu{
+    display: block;
+    cursor: pointer;
+  }
+  .header .enlaces{
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 650px) {
   #c2 p {
     font-size: 20px;
   }
@@ -361,124 +540,4 @@ body {
   .experiencia .misionvision {
     width: 80%;
   }
-}
-
-
-
-.wrap {
-  width: 100%;
-  margin: 50px auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.tarjeta-wrap {
-  margin: 30px;
-  -webkit-perspective: 800;
-  perspective: 800;
-}
-
-.tarjeta {
-  width: 250px;
-  height: 250px;
-  position: relative;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transition: .7s ease;
-  transition: .7s ease;
-  -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
-  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
-}
-
-#c3 {
-  background: #CB3066;
-}
-
-#c2 {
-  background: #dd00ff;
-}
-
-#c1 {
-  background: #16BFFD;
-}
-
-.adelante img, .atras {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.adelante {
-  width: 100%;
-}
-
-.atras {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  padding: 15px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  font-family: "Marvel", open sans;
-  font-size: 30px;
-}
-
-.tarjeta-wrap:hover .tarjeta {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-
-footer{
-  background: #16BFFD;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #CB3066, #16BFFD);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 100%;
-  display: block;
-  color: black;
- font-family: rancho;
-  font-size: 20px;
-  margin: 0;
-}
-footer .redes-sociales{
-  display: flex;
-  justify-content: center;
-  padding: 1em;
-}
- .fa-facebook-square, .fa-github,.fa-instagram{
-   padding-left: 10px;
-   font-size: 30px;
-   color: black;
-}
-footer .copy{
-  font-size: 15px;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 2em;
-}
-.fa-bars{
-  color: white;
-}
+} */
