@@ -1,13 +1,13 @@
 ![t-rex](https://user-images.githubusercontent.com/62625293/186057667-cd4738a5-561c-41cb-bb30-b10db15e9e63.gif)
 
-### Hi I'm Jessy 👋 🍧
+### Hi I'm Mile 👋 🍧
 
 ## I'm a Sofware Developer!
 - 🌠 A bit of madness and creativity in each project 💻
 - 🌈 I’m from Ecuador
 - 🌆 #22 
 
-
+### Wishful Interactive and Dinamic 
 <br />
 
 ---
