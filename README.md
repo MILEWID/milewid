@@ -3,10 +3,11 @@
 ### Hi I'm Mile 👋 🍧
 
 ## I'm a Sofware Developer!
-- 🌠 A bit of madness and creativity in each project 💻
+- 🌠 A bit of madness and creativity in each project 
+- 💻 Wishful , Interactive , Dinamic
 - 🌈 I’m from Ecuador
 - 🌆 #22 
-- 📗 Wishful , Interactive , Dinamic
+
 
 <br />
 
