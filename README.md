@@ -1,6 +1,4 @@
-### Hi there 👋
-
-![20e92227c9b739044e377b3567cfdac0](https://user-images.githubusercontent.com/62625293/186055932-0c71873c-1267-4509-bf61-3017312aaa3e.gif)
+![d2eb600c80c27ee32a019bcddccbc83ec7394c92r1-500-150_hq](https://user-images.githubusercontent.com/62625293/186056026-426dbc7a-8b39-4955-a476-7db12fa4901c.gif)
 
 **MILEWID/milewid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
