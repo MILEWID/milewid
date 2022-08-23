@@ -1,6 +1,4 @@
-
-
-![20210303-dino-game-5 8cbd2dc ebd0b7a5a9f7f1ec142b7662189d3a79](https://user-images.githubusercontent.com/62625293/186057370-5fbd3cdc-89f9-405d-867a-e160eda1bafe.gif)
+![t-rex](https://user-images.githubusercontent.com/62625293/186057667-cd4738a5-561c-41cb-bb30-b10db15e9e63.gif)
 
 Here are some ideas to get you started:
 
