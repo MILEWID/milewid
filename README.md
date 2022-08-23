@@ -14,9 +14,7 @@
 ---
 <table align="center"><tr><td align="center" width="9999">
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richardnarvaez&layout=compact&count_private=true&langs_count=10" />
-</a>
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=milewid)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 
 
