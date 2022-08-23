@@ -1,6 +1,4 @@
-![d2eb600c80c27ee32a019bcddccbc83ec7394c92r1-500-150_hq](https://user-images.githubusercontent.com/62625293/186056026-426dbc7a-8b39-4955-a476-7db12fa4901c.gif)
-
-**MILEWID/milewid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![t-rex](https://user-images.githubusercontent.com/62625293/186056429-9f1f8092-bfbc-4322-abef-c6e1f3e0842a.gif)
 
 Here are some ideas to get you started:
 
