@@ -31,7 +31,8 @@ jobs:
         id: snake-gif
         with:
           github_user_name: MILEWID
-          color_dots:  green, green , green, green , green
+          color_snake: rgb(0, 199, 182)
+          color_dots:  green, rgb(0, 199, 182) , green, green , green
           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
